@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times
+# This script is displaying numbers from 1 to 20
 i=0; while ((i++<20)); do echo $i
     case $i in
         4) echo "bad luck from China";;

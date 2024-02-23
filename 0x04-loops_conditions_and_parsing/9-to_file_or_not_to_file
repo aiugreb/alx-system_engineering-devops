@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times
+
 
 file="school"; if [ -e "$file" ]; then echo "$file file exists"
 	if [ -s "$file" ]; then echo "$file file is not empty"
