@@ -1,12 +1,7 @@
-# Setup New Ubuntu server with nginx
-
-exec { 'update system':
-        command => '/usr/bin/apt-get update',
-}
+# Install nginx with puppet
 
 package { 'nginx':
-	ensure => 'installed',
-	require => Exec['update system']
+	ensure => installed,
 }
 
 file {'/var/www/html/index.html':
